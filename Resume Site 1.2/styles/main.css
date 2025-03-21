@@ -1,0 +1,118 @@
+html {
+    background: linear-gradient(to bottom, white 0%, gray 100%);
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 750px;
+    background-color: white;
+    margin: 1em auto;
+    padding: 1.7em 1.5em;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 1);
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 95%;
+    padding: .25em 0;
+}
+
+em {
+    font-weight: bold;
+}
+
+
+/* Anchor styles */
+a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:link {
+    color: gray;
+}
+
+a:hover{
+    color: red;
+}
+
+
+/* List styles*/
+ul {
+    margin: 0 0 1.5em;
+}
+
+li {
+    font-size: 95%;
+    padding-bottom: .35em;
+}
+
+
+/* Header Part*/
+header {
+    padding-bottom: 1em;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+header img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+header h2 {
+    font-size: 220%;
+    color: gray;
+    text-shadow: 2px 2px 0 black;
+    margin-bottom: .25em;
+}
+
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+    color: #666;
+}
+
+/* Main Part */
+main {
+    clear: left;
+}
+
+main h1 {
+    font-size: 175%;
+    margin: 1em 0 .35em;
+    color: #333;
+}
+
+main h2 {
+    font-size: 130%;
+    color: #444;
+}
+
+#contact_us {
+    margin-top: 1em;
+}
+
+/* Footer Side */
+footer {
+    margin-top: 2em;
+    border-top: 2px solid gray;
+    padding-top: .7em;
+    text-align: right;
+}
+
+footer p {
+    font-size: 80%;
+    color: #555;
+}
